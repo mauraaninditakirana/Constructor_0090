@@ -26,4 +26,15 @@ class Mahasiswa
         }
             
 };
+Mahasiswa::Mahasiswa(string iNama)
+{
+    nama = iNama;
+}
+Mahasiswa::Mahasiswa(int iNim, string iNama)
+{
+    nim = iNim;
+    nama = iNama;
+};
+
+
 
